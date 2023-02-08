@@ -12,6 +12,15 @@
 		C52B630B29930ECA00691DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52B630A29930ECA00691DFA /* ViewController.swift */; };
 		C52B631029930ECC00691DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52B630F29930ECC00691DFA /* Assets.xcassets */; };
 		C52B631329930ECC00691DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52B631129930ECC00691DFA /* LaunchScreen.storyboard */; };
+		C52B631D299322E900691DFA /* Branch in Frameworks */ = {isa = PBXBuildFile; productRef = C52B631C299322E900691DFA /* Branch */; };
+		C52B63202993233900691DFA /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B631F2993233900691DFA /* iAd.framework */; };
+		C52B63222993233F00691DFA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B63212993233F00691DFA /* WebKit.framework */; };
+		C52B63242993234700691DFA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B63232993234700691DFA /* CoreTelephony.framework */; };
+		C52B63262993234E00691DFA /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B63252993234E00691DFA /* CoreSpotlight.framework */; };
+		C52B63282993235500691DFA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B63272993235500691DFA /* SystemConfiguration.framework */; };
+		C52B632A2993235D00691DFA /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B63292993235D00691DFA /* CoreServices.framework */; };
+		C52B632C2993236200691DFA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B632B2993236200691DFA /* AdSupport.framework */; };
+		C52B632E2993236800691DFA /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B632D2993236800691DFA /* AdServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		C52B630F29930ECC00691DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C52B631229930ECC00691DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C52B631429930ECC00691DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52B631A299320F500691DFA /* Patina Branch Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Patina Branch Sample.entitlements"; sourceTree = "<group>"; };
+		C52B631F2993233900691DFA /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C52B63212993233F00691DFA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C52B63232993234700691DFA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C52B63252993234E00691DFA /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		C52B63272993235500691DFA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C52B63292993235D00691DFA /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		C52B632B2993236200691DFA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C52B632D2993236800691DFA /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52B63282993235500691DFA /* SystemConfiguration.framework in Frameworks */,
+				C52B63202993233900691DFA /* iAd.framework in Frameworks */,
+				C52B63242993234700691DFA /* CoreTelephony.framework in Frameworks */,
+				C52B632A2993235D00691DFA /* CoreServices.framework in Frameworks */,
+				C52B63262993234E00691DFA /* CoreSpotlight.framework in Frameworks */,
+				C52B63222993233F00691DFA /* WebKit.framework in Frameworks */,
+				C52B632E2993236800691DFA /* AdServices.framework in Frameworks */,
+				C52B632C2993236200691DFA /* AdSupport.framework in Frameworks */,
+				C52B631D299322E900691DFA /* Branch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,7 @@
 			children = (
 				C52B630529930ECA00691DFA /* Patina Branch Sample */,
 				C52B630429930ECA00691DFA /* Products */,
+				C52B631E2993233900691DFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +82,7 @@
 		C52B630529930ECA00691DFA /* Patina Branch Sample */ = {
 			isa = PBXGroup;
 			children = (
+				C52B631A299320F500691DFA /* Patina Branch Sample.entitlements */,
 				C52B630629930ECA00691DFA /* AppDelegate.swift */,
 				C52B630829930ECA00691DFA /* SceneDelegate.swift */,
 				C52B630A29930ECA00691DFA /* ViewController.swift */,
@@ -62,6 +91,21 @@
 				C52B631429930ECC00691DFA /* Info.plist */,
 			);
 			path = "Patina Branch Sample";
+			sourceTree = "<group>";
+		};
+		C52B631E2993233900691DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C52B632D2993236800691DFA /* AdServices.framework */,
+				C52B632B2993236200691DFA /* AdSupport.framework */,
+				C52B63292993235D00691DFA /* CoreServices.framework */,
+				C52B63272993235500691DFA /* SystemConfiguration.framework */,
+				C52B63252993234E00691DFA /* CoreSpotlight.framework */,
+				C52B63232993234700691DFA /* CoreTelephony.framework */,
+				C52B63212993233F00691DFA /* WebKit.framework */,
+				C52B631F2993233900691DFA /* iAd.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +124,9 @@
 			dependencies = (
 			);
 			name = "Patina Branch Sample";
+			packageProductDependencies = (
+				C52B631C299322E900691DFA /* Branch */,
+			);
 			productName = "Patina Branch Sample";
 			productReference = C52B630329930ECA00691DFA /* Patina Branch Sample.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +155,9 @@
 				Base,
 			);
 			mainGroup = C52B62FA29930ECA00691DFA;
+			packageReferences = (
+				C52B631B299322E900691DFA /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */,
+			);
 			productRefGroup = C52B630429930ECA00691DFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -273,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Patina Branch Sample/Patina Branch Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E2982HR598;
@@ -280,14 +331,14 @@
 				INFOPLIST_FILE = "Patina Branch Sample/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "yoga.patina.Patina-Branch-Sample";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patina.Patina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -303,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Patina Branch Sample/Patina Branch Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = E2982HR598;
@@ -310,14 +362,14 @@
 				INFOPLIST_FILE = "Patina Branch Sample/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "yoga.patina.Patina-Branch-Sample";
+				PRODUCT_BUNDLE_IDENTIFIER = com.patina.Patina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -350,6 +402,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C52B631B299322E900691DFA /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BranchMetrics/ios-branch-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C52B631C299322E900691DFA /* Branch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C52B631B299322E900691DFA /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */;
+			productName = Branch;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C52B62FB29930ECA00691DFA /* Project object */;
 }

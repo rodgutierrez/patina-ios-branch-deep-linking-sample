@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.patina.Patina</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>patina</string>
+			</array>
+		</dict>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -19,5 +32,17 @@
 			</array>
 		</dict>
 	</dict>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_li3IDwy0GnFlfabBAlT5fmafzwdMTw2p</string>
+		<key>test</key>
+		<string>secret_live_a7vee5rCvmG6n3D0AQc7hdIwBy0ogM1K</string>
+	</dict>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>patina.app.link</string>
+		<string>patina-alternate.app.link</string>
+	</array>
 </dict>
 </plist>
